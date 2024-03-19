@@ -1,20 +1,20 @@
-# set line number and relative line number
+" set line number and relative line number
 set rnu
 set nu
 
-# set tab
+" set tab
 set tabstop=4
 set shiftwidth=4 smarttab
 
-## set expandtab
+"" set expandtab
 set autoindent
 set smartindent
 
-# misc
+" misc
 set showcmd
 set ignorecase
 
-# set keybindings
+" set keybindings
 let mapleader = " "
 nnoremap ; :
 inoremap jk <Esc>
