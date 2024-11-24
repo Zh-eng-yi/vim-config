@@ -10,6 +10,9 @@ set shiftwidth=2
 set autoindent
 set smartindent
 
+" syntax highlighting
+syntax on
+
 " misc
 set showcmd
 set ignorecase
