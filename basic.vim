@@ -3,10 +3,10 @@ set rnu
 set nu
 
 " set tab
-set tabstop=4
-set shiftwidth=4 smarttab
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
-"" set expandtab
 set autoindent
 set smartindent
 
@@ -22,4 +22,6 @@ nnoremap <leader>d dd
 nnoremap K i<cr><Esc>l
 nnoremap vv <C-v>
 
-colorscheme slate
+" set color scheme
+set background=light
+colorscheme shine
